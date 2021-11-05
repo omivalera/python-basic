@@ -1,1 +1,1 @@
-# Aquí encuentras todo el código trabajado durante el curso 
+# Código trabajado durante el curso.
