@@ -6,16 +6,15 @@ def palindromo(palabra):
         return True
     else:
         return False
-
-
-def run():
-    palabra = input('Escribe una palabra: ')
+    
+def main():
+    palabra = input("Escribe una palbra cualquiera: ")
     es_palindromo = palindromo(palabra)
     if es_palindromo == True:
-        print('Es palíndromo')
+        print("Esta es una palabra palindroma")
     else:
-        print('No es palíndromo')
+        print("Esta es una palabra no es palindroma")
 
 
 if __name__ == '__main__':
-    run()
+    main()
