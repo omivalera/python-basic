@@ -1,20 +1,14 @@
-# print(1)
-# print(2)
-# print(3)
-# print(4)
-# print(5)
+# contador = contador + 1 ---> Básica
+# contador += 1 ---> Refactorizada
 
-# contador = 1
-# print(contador)
-# while contador < 1000:
+# contador = 0
+# print (contador)
+# while contador < 100:
+#     contador = contador + 1
 #     contador += 1
 #     print(contador)
 
-# a = list(range(1000))
-# print(a)
 
-# for contador in range(1, 1001):
-#     print(contador)
 
-for i in range(10):
-    print(11 * i)
+for contador in range(101):
+    print (contador)

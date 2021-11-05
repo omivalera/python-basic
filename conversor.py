@@ -1,28 +1,29 @@
-def conversor(tipo_pesos, valor_dolar):
-    pesos = input("¿Cuántos pesos " + tipo_pesos + " tienes?: ")
+def conversor(tipo_pesos, valor_usd):
+    pesos = input("¿Cuantos " + tipo_pesos + " quieres convertir?: ")
     pesos = float(pesos)
-    dolares = pesos / valor_dolar
-    dolares = round(dolares, 2)
-    dolares = str(dolares)
-    print("Tienes $" + dolares + " dólares")
-
+    usd = pesos / valor_usd
+    usd = round(usd, 2)
+    usd = str(usd)
+    print("Posees $" + usd + ", en billeticos gringos")
 
 menu = """
-Bienvenido al conversor de monedas 💰
+💵💲Bienvenido al conversor de divisas mas basico y funcional del mundo mundial 💸🏦
 
-1 - Pesos colombianos
-2 - Pesos argentinos
-3 - Pesos mexicanos
+Elige una opción: 
 
-Elige una opción: """
+1- Soles Peruanos
+2- Pesos Argentinos
+3- Bolivares
+
+Pero elige con cuidade :v: """
 
 opcion = int(input(menu))
 
 if opcion == 1:
-    conversor("colombianos", 3875)
+    conversor("Soles", 3.98)
 elif opcion == 2:
-    conversor("argentinos", 65)
+    conversor("Pesos Argentinos", 99.70) 
 elif opcion == 3:
-    conversor("mexicanos", 24)
+    conversor("Bolivares", 4.32)
 else:
-    print('Ingresa una opción correcta por favor')
+    print("no existe esa opción, tonto.")
