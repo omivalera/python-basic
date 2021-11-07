@@ -1,1 +1,1 @@
-# Mis notas de tipo borrador durante el curos.
+# Mis notas de tipo borrador durante el curso.
