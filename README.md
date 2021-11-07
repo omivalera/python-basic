@@ -1,1 +1,1 @@
-# Código trabajado durante el curso.
+# Mis notas de tipo borrador durante el curos.
